@@ -157,7 +157,7 @@ Fill in the rest of the table.
 | ------------------------------ | -------------------------------- | ----------------------------- | ------------------------------------------------------- |
 | `EventTarget.addEventListener` | string, handler(e: Event): void  | void                          | addEventListener(type: string, handler: function): void |
 | `window.setTimeout`            | string and number                | string                        | setTimeout(type: string and number, handler: function): string|
-| `Array.prototype.map`          | array or object                  | array or object               | .map(type: array or object, handler: function): array or object|
-| `Array.prototype.find`         | array                            | number                        | .find(type: array, handler: function): number           |
-| `Array.prototype.filter`       | array                            | array                         | .filter(type: array, handler: function): array          |
-| `Array.prototype.reduce`       | array                            | number                        | .reduce(type: array, handler: function): number or string|
+| `Array.prototype.map`          | callback function                | array or object               | .map(type: array or object, handler: function): array or object|
+| `Array.prototype.find`         | callback function                | number                        | .find(type: array, handler: function): number           |
+| `Array.prototype.filter`       | callback function                | array                         | .filter(type: array, handler: function): array          |
+| `Array.prototype.reduce`       | callback funtion                 | number                        | .reduce(type: array, handler: function): number or string|
