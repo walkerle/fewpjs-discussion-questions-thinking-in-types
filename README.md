@@ -156,8 +156,8 @@ Fill in the rest of the table.
 | Function                       | types of inputs                  | type of output                | function signature                                      |
 | ------------------------------ | -------------------------------- | ----------------------------- | ------------------------------------------------------- |
 | `EventTarget.addEventListener` | string, handler(e: Event): void  | void                          | addEventListener(type: string, handler: function): void |
-| `window.setTimeout`            | String and Number                | String                        | setTimeout(type: string and number, handler: function): string|
-| `Array.prototype.map`          | Array or Object                  | Array or Object               | .map(type: Array or Object, handler: function): Array or Object|
-| `Array.prototype.find`         |                                  |                               |                                                         |
-| `Array.prototype.filter`       |                                  |                               |                                                         |
-| `Array.prototype.reduce`       |                                  |                               |                                                         |
+| `window.setTimeout`            | string and number                | string                        | setTimeout(type: string and number, handler: function): string|
+| `Array.prototype.map`          | array or object                  | array or object               | .map(type: array or object, handler: function): array or object|
+| `Array.prototype.find`         | array                            | number                        | .find(type: array, handler: function): number           |
+| `Array.prototype.filter`       | array                            | array                         | .filter(type: array, handler: function): array          |
+| `Array.prototype.reduce`       | array                            | number                        | .reduce(type: array, handler: function): number or string|
