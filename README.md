@@ -156,8 +156,8 @@ Fill in the rest of the table.
 | Function                       | types of inputs                  | type of output                | function signature                                      |
 | ------------------------------ | -------------------------------- | ----------------------------- | ------------------------------------------------------- |
 | `EventTarget.addEventListener` | string, handler(e: Event): void  | void                          | addEventListener(type: string, handler: function): void |
-| `window.setTimeout`            |                                  |                               |                                                        |
-| `Array.prototype.map`          |                                  |                               |                                                        |
+| `window.setTimeout`            | String and Number                | String                        | setTimeout(type: string and number, handler: function): string|
+| `Array.prototype.map`          | Array or Object                  | Array or Object               | .map(type: Array or Object, handler: function): Array or Object|
 | `Array.prototype.find`         |                                  |                               |                                                         |
 | `Array.prototype.filter`       |                                  |                               |                                                         |
 | `Array.prototype.reduce`       |                                  |                               |                                                         |
